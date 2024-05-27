@@ -5,3 +5,9 @@
 - [ ] Criar função que gera imagens a partir da HLS
 - Servir estáticos com echo
 - Criar Go routines
+
+
+```
+curl -v http://localhost:8000/thumbs/segment_260.png
+curl -v localhost:8000/coelho/playlist.m3u8
+```
